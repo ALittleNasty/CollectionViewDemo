@@ -33,6 +33,14 @@
 		3922173C1DFE506D0014CE87 /* wf7.png in Resources */ = {isa = PBXBuildFile; fileRef = 392217221DFE506D0014CE87 /* wf7.png */; };
 		3922173D1DFE506D0014CE87 /* wf8.png in Resources */ = {isa = PBXBuildFile; fileRef = 392217231DFE506D0014CE87 /* wf8.png */; };
 		3922173E1DFE506D0014CE87 /* wf9.png in Resources */ = {isa = PBXBuildFile; fileRef = 392217241DFE506D0014CE87 /* wf9.png */; };
+		392217461DFE54310014CE87 /* CHTCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 392217451DFE54310014CE87 /* CHTCollectionViewWaterfallLayout.m */; };
+		392217491DFE54560014CE87 /* WaterFallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 392217481DFE54560014CE87 /* WaterFallController.m */; };
+		3922174C1DFE557C0014CE87 /* WFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3922174B1DFE557C0014CE87 /* WFModel.m */; };
+		392217501DFE840E0014CE87 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 3922174F1DFE840E0014CE87 /* UIColor+HEX.m */; };
+		392217531DFE84190014CE87 /* UITableViewCell+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 392217521DFE84190014CE87 /* UITableViewCell+Nib.m */; };
+		392217561DFE84310014CE87 /* UICollectionViewCell+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = 392217551DFE84310014CE87 /* UICollectionViewCell+Nib.m */; };
+		3922175A1DFE84570014CE87 /* WFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 392217581DFE84570014CE87 /* WFCollectionViewCell.m */; };
+		3922175B1DFE84570014CE87 /* WFCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 392217591DFE84570014CE87 /* WFCollectionViewCell.xib */; };
 		39E03C581DEFB17B008827FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E03C571DEFB17B008827FA /* main.m */; };
 		39E03C5B1DEFB17B008827FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E03C5A1DEFB17B008827FA /* AppDelegate.m */; };
 		39E03C5E1DEFB17B008827FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E03C5D1DEFB17B008827FA /* ViewController.m */; };
@@ -99,6 +107,21 @@
 		392217221DFE506D0014CE87 /* wf7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wf7.png; sourceTree = "<group>"; };
 		392217231DFE506D0014CE87 /* wf8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wf8.png; sourceTree = "<group>"; };
 		392217241DFE506D0014CE87 /* wf9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wf9.png; sourceTree = "<group>"; };
+		392217441DFE54310014CE87 /* CHTCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		392217451DFE54310014CE87 /* CHTCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		392217471DFE54560014CE87 /* WaterFallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallController.h; sourceTree = "<group>"; };
+		392217481DFE54560014CE87 /* WaterFallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallController.m; sourceTree = "<group>"; };
+		3922174A1DFE557C0014CE87 /* WFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFModel.h; sourceTree = "<group>"; };
+		3922174B1DFE557C0014CE87 /* WFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFModel.m; sourceTree = "<group>"; };
+		3922174E1DFE840E0014CE87 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		3922174F1DFE840E0014CE87 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		392217511DFE84190014CE87 /* UITableViewCell+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Nib.h"; sourceTree = "<group>"; };
+		392217521DFE84190014CE87 /* UITableViewCell+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Nib.m"; sourceTree = "<group>"; };
+		392217541DFE84310014CE87 /* UICollectionViewCell+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+Nib.h"; sourceTree = "<group>"; };
+		392217551DFE84310014CE87 /* UICollectionViewCell+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+Nib.m"; sourceTree = "<group>"; };
+		392217571DFE84570014CE87 /* WFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFCollectionViewCell.h; sourceTree = "<group>"; };
+		392217581DFE84570014CE87 /* WFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFCollectionViewCell.m; sourceTree = "<group>"; };
+		392217591DFE84570014CE87 /* WFCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WFCollectionViewCell.xib; sourceTree = "<group>"; };
 		39E03C531DEFB17B008827FA /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E03C571DEFB17B008827FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		39E03C591DEFB17B008827FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -186,6 +209,67 @@
 			path = waterfall;
 			sourceTree = "<group>";
 		};
+		3922173F1DFE535F0014CE87 /* WaterFallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				392217401DFE535F0014CE87 /* controller */,
+				392217411DFE535F0014CE87 /* model */,
+				392217421DFE535F0014CE87 /* tool */,
+				392217431DFE535F0014CE87 /* view */,
+			);
+			path = WaterFallLayout;
+			sourceTree = "<group>";
+		};
+		392217401DFE535F0014CE87 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				392217471DFE54560014CE87 /* WaterFallController.h */,
+				392217481DFE54560014CE87 /* WaterFallController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		392217411DFE535F0014CE87 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3922174A1DFE557C0014CE87 /* WFModel.h */,
+				3922174B1DFE557C0014CE87 /* WFModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		392217421DFE535F0014CE87 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				392217441DFE54310014CE87 /* CHTCollectionViewWaterfallLayout.h */,
+				392217451DFE54310014CE87 /* CHTCollectionViewWaterfallLayout.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		392217431DFE535F0014CE87 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				392217571DFE84570014CE87 /* WFCollectionViewCell.h */,
+				392217581DFE84570014CE87 /* WFCollectionViewCell.m */,
+				392217591DFE84570014CE87 /* WFCollectionViewCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3922174D1DFE83E30014CE87 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				392217541DFE84310014CE87 /* UICollectionViewCell+Nib.h */,
+				392217551DFE84310014CE87 /* UICollectionViewCell+Nib.m */,
+				392217511DFE84190014CE87 /* UITableViewCell+Nib.h */,
+				392217521DFE84190014CE87 /* UITableViewCell+Nib.m */,
+				3922174E1DFE840E0014CE87 /* UIColor+HEX.h */,
+				3922174F1DFE840E0014CE87 /* UIColor+HEX.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		39E03C4A1DEFB17B008827FA = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +289,8 @@
 		39E03C551DEFB17B008827FA /* CollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3922174D1DFE83E30014CE87 /* Util */,
+				3922173F1DFE535F0014CE87 /* WaterFallLayout */,
 				39E03C781DF0030F008827FA /* Resources */,
 				39E03C591DEFB17B008827FA /* AppDelegate.h */,
 				39E03C5A1DEFB17B008827FA /* AppDelegate.m */,
@@ -361,6 +447,7 @@
 				392217311DFE506D0014CE87 /* wf2.png in Resources */,
 				392217321DFE506D0014CE87 /* wf20.png in Resources */,
 				39E03CAA1DF004D6008827FA /* 12.jpg in Resources */,
+				3922175B1DFE84570014CE87 /* WFCollectionViewCell.xib in Resources */,
 				392217301DFE506D0014CE87 /* wf19.png in Resources */,
 				392217371DFE506D0014CE87 /* wf25.png in Resources */,
 				39E03CB91DF004D6008827FA /* 27.jpg in Resources */,
@@ -396,7 +483,14 @@
 			files = (
 				39E03C5E1DEFB17B008827FA /* ViewController.m in Sources */,
 				39E03C5B1DEFB17B008827FA /* AppDelegate.m in Sources */,
+				392217561DFE84310014CE87 /* UICollectionViewCell+Nib.m in Sources */,
+				392217491DFE54560014CE87 /* WaterFallController.m in Sources */,
+				392217501DFE840E0014CE87 /* UIColor+HEX.m in Sources */,
 				39E03C581DEFB17B008827FA /* main.m in Sources */,
+				392217531DFE84190014CE87 /* UITableViewCell+Nib.m in Sources */,
+				3922175A1DFE84570014CE87 /* WFCollectionViewCell.m in Sources */,
+				3922174C1DFE557C0014CE87 /* WFModel.m in Sources */,
+				392217461DFE54310014CE87 /* CHTCollectionViewWaterfallLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

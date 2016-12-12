@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WaterFallController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -20,8 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = nil;
     
-    self.dataArray = @[@"第一章",@"第二章",@"第三章",@"第四章"];
+    self.dataArray = @[@"瀑布流",@"第二章",@"第三章",@"第四章"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cellID"];
 }
 
@@ -50,7 +52,19 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    CustomFlowLayoutController *vc = [[CustomFlowLayoutController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    UIViewController *pushedVC = nil;
+    switch (indexPath.row) {
+        case 0: {
+            WaterFallController *wfVC = [[WaterFallController alloc] init];
+            pushedVC = wfVC;
+        }
+            break;
+            
+        default:
+            break;
+    }
+    [self.navigationController pushViewController:pushedVC animated:YES];
 }
 @end
