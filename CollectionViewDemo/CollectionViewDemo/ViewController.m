@@ -50,6 +50,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
+//    CustomFlowLayoutController *vc = [[CustomFlowLayoutController alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
 }
 @end
